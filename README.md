@@ -2,7 +2,7 @@
 
 A UART transmitter written in Verilog: an 8N1 serial transmitter driven by a 4-state finite-state machine, running at 9600 baud from a 50 MHz clock, with a self-checking testbench that decodes and verifies every frame.
 
-**Built:** May 2025 · Embedded systems course project · Documented 2026
+**Built:** May 2025 · Embedded systems course project
 **Status:** verified in simulation (ModelSim and Icarus Verilog); not run on FPGA hardware.
 
 ![Simulated waveform of uart_tx sending 0xAA: start bit, data bits 0 1 0 1 0 1 0 1 sent LSB first, stop bit, with busy and FSM state traces](media/waveform_0xAA.png)
@@ -84,4 +84,4 @@ In ModelSim: create a project, add `rtl/uart_tx.v` and either testbench, compile
 
 ## Author
 
-**Michel Salame** — wrote the transmitter module and its testbench. [LinkedIn](https://www.linkedin.com/in/michel-salame)
+**Michel Salame** — [LinkedIn](https://www.linkedin.com/in/michel-salame)
