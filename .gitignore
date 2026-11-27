@@ -1,0 +1,6 @@
+*.vcd
+*.vvp
+a.out
+work/
+*.wlf
+transcript
